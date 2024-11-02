@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Titre du menu -->
+    <group android:id="@+id/group_navigation"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_mes_rappels"
+            android:icon="@drawable/ic_rappels"
+            android:title="Mes Rappels" />
+
+        <item
+            android:id="@+id/nav_parametres"
+            android:icon="@drawable/ic_parametres"
+            android:title="Paramètres" />
+
+        <item
+            android:id="@+id/nav_aide"
+            android:icon="@drawable/ic_aide"
+            android:title="Aide" />
+
+        <item
+            android:id="@+id/nav_deconnexion"
+            android:icon="@drawable/ic_deconnexion"
+            android:title="Déconnexion" />
+
+    </group>
+
+</menu>

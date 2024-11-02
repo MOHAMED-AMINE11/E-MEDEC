@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titre"
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edit_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date et Heure (yyyy-MM-dd HH:mm)"
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edit_medicament"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Médicament"
+            android:padding="8dp"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinner_etat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_add_rappel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter Rappel"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

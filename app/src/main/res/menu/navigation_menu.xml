@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_mes_rappels"
+        android:title="Mes Rappels"
+        android:checked="true"/>
+    <item
+        android:id="@+id/nav_partager"
+        android:title="Partager"/>
+</menu>
